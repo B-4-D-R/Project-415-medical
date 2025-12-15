@@ -68,3 +68,6 @@ backend/README.md
 
 traning/
 backend/models
+
+frontend/.env
+backend/.env
