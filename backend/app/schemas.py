@@ -74,6 +74,7 @@ class MessageResponse(BaseModel):
     chat_id: int
     sender: str
     text: str
+    raw_model_response: Optional[str] = None 
     timestamp: datetime
 
     class Config:

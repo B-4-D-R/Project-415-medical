@@ -19,7 +19,7 @@ const LoginPage = () => {
 
   // Demo credentials for testing
   const DEMO_EMAIL = 'demo@meditriage.com';
-  const DEMO_PASSWORD = 'demo123';
+  const DEMO_PASSWORD = 'Demo123@';
 
   const handleDemoLogin = () => {
     setEmail(DEMO_EMAIL);

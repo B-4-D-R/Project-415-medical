@@ -56,6 +56,7 @@ class Message(Base):
     chat_id = Column(Integer, ForeignKey("chats.id"), nullable=False)
     sender = Column(String, nullable=False)  # "user" or "assistant"
     text = Column(Text, nullable=False)
+    raw_model_response = Column(Text, nullable=True) 
     timestamp = Column(DateTime, default=datetime.utcnow)
 
     # Relationships

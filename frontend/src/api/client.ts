@@ -76,6 +76,7 @@ export interface Message {
   id: string;
   sender: 'user' | 'assistant';
   text: string;
+  raw_model_response: string;
   created_at: string;
 }
 

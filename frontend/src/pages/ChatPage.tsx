@@ -46,7 +46,7 @@ const ChatPage = () => {
         }
       } catch (error) {
         // For demo purposes, use mock data if API fails
-        console.log('Using demo mode - API not connected');
+        console.log('Using demo mode - API not connected', error);
         setChats([]);
       } finally {
         setIsLoading(false);

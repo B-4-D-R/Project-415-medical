@@ -72,6 +72,7 @@ const ChatWindow = ({ messages, isTyping = false }: ChatWindowProps) => {
             key={message.id}
             role={message.sender}
             content={message.text}
+            raw_model_response={message.raw_model_response}
             timestamp={message.created_at}
           />
         ))}
